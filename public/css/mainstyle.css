@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(218, 51, 0);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+h3 {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.gradi {
+    background: rgb(213,254,255);
+    background: radial-gradient(circle, rgba(213,254,255,1) 0%, rgba(252,137,237,1) 79%);
+}
+
+.olgadiv {
+    margin-top: 25px;
+}
+
+.olgaimg {
+    margin:0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.bord {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.blok {
+    height: 300px;
+}
+
+.flex {
+    /*border: solid yellow;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+
+
+.column {
+    width: 300px;
+    background-color: rgb(219, 70, 115);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border: solid rgb(0, 238, 255);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.modal {
+    color: black;
+}
