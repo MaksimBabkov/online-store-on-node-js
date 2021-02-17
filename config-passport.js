@@ -3,8 +3,8 @@ const LocalStrategy = require('passport-local').Strategy;
 
 const userDB = {
   id: 136345,
-  email: 'maks.babkov@list.ru',
-  password: 'stqx6cst',
+  email: 'ваш логин для входа в систему',
+  password: '*******',
 };
 
 passport.serializeUser(function(user, done) {
